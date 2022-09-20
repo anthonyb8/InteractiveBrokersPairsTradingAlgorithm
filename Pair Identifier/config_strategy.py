@@ -4,7 +4,7 @@ API Configuration:
 
 """
 #Configuration
-account = 'U4976268' 
+account = ''#insert Interactive Brokers account number 
 mode = 'paper' #paper or live
 timeframe = '1 Day' #time window examining
 duration = '365 D' #maximum for Interactive Brokers
