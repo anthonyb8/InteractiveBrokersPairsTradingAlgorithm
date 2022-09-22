@@ -14,6 +14,7 @@ if __name__ == "__main__":
     print("Calculating co-integration...")
     if len(app.hist_dict) > 0:
         coint_pairs = get_cointegrated_pairs(app.hist_dict)
+        coint_pairs.reset_index(drop = True, inplace = True)
     print('Done')
     
     # # STEP 3 - Plot trends and save for backtesting
